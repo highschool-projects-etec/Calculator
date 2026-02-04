@@ -1,0 +1,402 @@
+object Form1: TForm1
+  Left = 750
+  Top = 175
+  Caption = 'Form1'
+  ClientHeight = 413
+  ClientWidth = 257
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 750
+  Top = 175
+  DesignerMasterStyle = 0
+  object GridLayout1: TGridLayout
+    Align = Client
+    ItemHeight = 64.000000000000000000
+    ItemWidth = 64.000000000000000000
+    Orientation = Horizontal
+    Size.Width = 257.000000000000000000
+    Size.Height = 258.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object btn7: TButton
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '7'
+      OnClick = btn7Click
+      object ShadowEffect9: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claTomato
+      end
+    end
+    object btn8: TButton
+      Align = Bottom
+      Position.X = 64.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = '8'
+      OnClick = btn8Click
+      object ShadowEffect15: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claOrange
+      end
+    end
+    object btn9: TButton
+      Align = Bottom
+      Position.X = 128.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = '9'
+      OnClick = btn9Click
+      object ShadowEffect16: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlue
+      end
+    end
+    object Button5: TButton
+      Align = Bottom
+      StyledSettings = [FontColor]
+      Position.X = 192.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = '+'
+      TextSettings.Font.Family = 'Papyrus'
+      TextSettings.Font.Size = 28.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = Button5Click
+      object ShadowEffect13: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claChocolate
+      end
+    end
+    object btn4: TButton
+      Align = Bottom
+      Position.Y = 64.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = '4'
+      OnClick = btn4Click
+      object ShadowEffect14: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claYellow
+      end
+    end
+    object btn5: TButton
+      Align = Bottom
+      Position.X = 64.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = '5'
+      OnClick = btn5Click
+      object ShadowEffect12: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claChartreuse
+      end
+    end
+    object btn6: TButton
+      Align = Bottom
+      Position.X = 128.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      Text = '6'
+      OnClick = btn6Click
+      object ShadowEffect11: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claAqua
+      end
+    end
+    object Button9: TButton
+      Align = Bottom
+      StyledSettings = [FontColor]
+      Position.X = 192.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = '-'
+      TextSettings.Font.Family = 'Papyrus'
+      TextSettings.Font.Size = 36.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = Button9Click
+      object ShadowEffect10: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claCrimson
+      end
+    end
+    object btn1: TButton
+      Align = Bottom
+      Position.Y = 128.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      Text = '1'
+      OnClick = btn1Click
+      object ShadowEffect1: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 1.000000000000000000
+        ShadowColor = claBlueviolet
+      end
+    end
+    object btn2: TButton
+      Align = Bottom
+      StyledSettings = [FontColor]
+      Position.X = 64.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      Text = '2'
+      TextSettings.Font.Family = 'Papyrus'
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = btn2Click
+      object ShadowEffect8: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claDarkturquoise
+      end
+    end
+    object btn3: TButton
+      Align = Bottom
+      StyledSettings = [FontColor]
+      Position.X = 128.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      Text = '3'
+      TextSettings.Font.Family = 'Papyrus'
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = btn3Click
+      object ShadowEffect6: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claMediumturquoise
+      end
+    end
+    object Button13: TButton
+      Align = Bottom
+      StyledSettings = []
+      Position.X = 192.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      Text = '*'
+      TextSettings.Font.Family = 'Papyrus'
+      TextSettings.Font.Size = 28.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = Button13Click
+      object ShadowEffect7: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claGold
+      end
+    end
+    object Button14: TButton
+      Align = Bottom
+      StyledSettings = [FontColor]
+      Position.Y = 192.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 12
+      Text = ','
+      TextSettings.Font.Family = 'Papyrus'
+      TextSettings.Font.Size = 28.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      object ShadowEffect5: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claRed
+      end
+    end
+    object Button15: TButton
+      Align = Bottom
+      StyledSettings = [FontColor]
+      Position.X = 64.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 13
+      Text = '0'
+      TextSettings.Font.Family = 'Papyrus'
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      object ShadowEffect4: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claSpringgreen
+      end
+    end
+    object Button16: TButton
+      Align = Bottom
+      StyledSettings = [FontColor]
+      Position.X = 128.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 14
+      Text = '='
+      TextSettings.Font.Family = 'Papyrus'
+      TextSettings.Font.Size = 36.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = Button16Click
+      object ShadowEffect3: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claFuchsia
+      end
+    end
+    object Button17: TButton
+      Align = Bottom
+      StyledSettings = [FontColor]
+      Position.X = 192.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 15
+      Text = '/'
+      TextSettings.Font.Family = 'Papyrus'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = Button17Click
+      object ShadowEffect2: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 3.000000000000000000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+  end
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = claDarkslateblue
+    Size.Width = 257.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button1: TButton
+    Size.Width = 65.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = '<-'
+  end
+  object Layout1: TLayout
+    Align = Top
+    Position.Y = 41.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object edtResultado: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 0
+      ReadOnly = True
+      Size.Width = 257.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Layout2: TLayout
+    Align = Top
+    Position.Y = 98.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object Rectangle2: TRectangle
+      Align = Top
+      Fill.Color = claDarkslateblue
+      Size.Width = 257.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      object Button18: TButton
+        Align = Right
+        Position.X = 97.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'CE'
+      end
+      object Button2: TButton
+        Align = Right
+        Position.X = 177.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'C'
+        OnClick = Button2Click
+      end
+    end
+  end
+end
